@@ -1,0 +1,15 @@
+.mc-content {
+  height: 100px;
+}
+.mc-content > mat-expansion-panel {
+  z-index: 1;
+}
+
+.mc-content > mat-expansion-panel > .panel-content {
+  max-height: 50vh;
+  overflow: auto;
+}
+
+.mc-content mat-grid-list {
+  height: auto;
+}

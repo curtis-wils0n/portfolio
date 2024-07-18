@@ -1,0 +1,26 @@
+<mat-card *ngFor="let project of projects; let i = index" [style.z-index]="projects.length - i">
+  <mat-card-header>
+    <mat-card-title-group>
+      <mat-card-title style="font-family: 'Dela Gothic One', sans-serif;">{{ project.title }}</mat-card-title>
+      <mat-card-subtitle>{{ project.subtitle }}</mat-card-subtitle>
+      <mat-icon [fontIcon]="project.avatar"></mat-icon>
+    </mat-card-title-group>
+  </mat-card-header>
+  <mat-card-content class="mc-content">
+    {{ project.content }}
+    <br><br>
+    <mat-expansion-panel class="panel-content">
+      <mat-expansion-panel-header>Expand to see images</mat-expansion-panel-header>
+      <mat-grid-list *ngFor="let image of project.images" cols="1" rowHeight="2:1">
+        <mat-grid-tile>
+          <img [src]="image" alt="" width="100%">
+        </mat-grid-tile>
+      </mat-grid-list>
+    </mat-expansion-panel>
+  </mat-card-content>
+  <mat-card-actions align="end">
+    <a mat-icon-button matTooltip="View code" [href]="project.link">
+      <mat-icon style="color: gray;" fontIcon="code"></mat-icon>
+    </a>
+  </mat-card-actions>
+</mat-card>
