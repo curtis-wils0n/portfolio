@@ -1,6 +1,17 @@
 {
   "projects": [
     {
+      "title": "CAT® Remote Fleet Vision",
+      "subtitle": "Angular, .NET, SQL Server",
+      "content": "A \"single-source portal for performance data and insights\" for Oil & Gas, ingesting and displaying telematics data through satellite and cellular",
+      "images": [
+        "../../assets/projects/rfv/splash.jpg",
+        "../../assets/projects/rfv/ipad.jpg"
+      ],
+      "avatar": "../../assets/projects/rfv/avatar.png",
+      "link": "https://www.cat.com/en_US/by-industry/oil-and-gas/product-support/cat-oil-gas-digital-services/cat-remote-fleet-vision-for-oil-and-gas.html"
+    },
+    {
       "title": "Jungle",
       "subtitle": "Ruby on Rails",
       "content": "A mini e-commerce plant-buying application",

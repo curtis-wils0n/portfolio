@@ -1,3 +1,4 @@
+<h1>Projects</h1>
 <mat-card *ngFor="let project of projects; let i = index" [style.z-index]="projects.length - i">
   <mat-card-header>
     <mat-card-title-group>
@@ -20,7 +21,7 @@
   </mat-card-content>
   <mat-card-actions align="end">
     <a mat-icon-button matTooltip="View code" [href]="project.link">
-      <mat-icon style="color: gray;" fontIcon="code"></mat-icon>
+      <mat-icon style="color: gray;" fontIcon="link"></mat-icon>
     </a>
   </mat-card-actions>
 </mat-card>
