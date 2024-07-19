@@ -5,10 +5,10 @@
       "subtitle": "Angular, .NET, SQL Server",
       "content": "A \"single-source portal for performance data and insights\" for Oil & Gas, ingesting and displaying telematics data through satellite and cellular",
       "images": [
-        "../../assets/projects/rfv/splash.jpg",
-        "../../assets/projects/rfv/ipad.jpg"
+        "./assets/projects/rfv/splash.jpg",
+        "./assets/projects/rfv/ipad.jpg"
       ],
-      "avatar": "../../assets/projects/rfv/avatar.png",
+      "avatar": "./assets/projects/rfv/avatar.png",
       "link": "https://www.cat.com/en_US/by-industry/oil-and-gas/product-support/cat-oil-gas-digital-services/cat-remote-fleet-vision-for-oil-and-gas.html"
     },
     {
@@ -16,11 +16,11 @@
       "subtitle": "Ruby on Rails",
       "content": "A mini e-commerce plant-buying application",
       "images": [
-        "../../assets/projects/jungle/jungle-splash.png",
-        "../../assets/projects/jungle/jungle-products.png",
-        "../../assets/projects/jungle/jungle-admin.png"
+        "./assets/projects/jungle/jungle-splash.png",
+        "./assets/projects/jungle/jungle-products.png",
+        "./assets/projects/jungle/jungle-admin.png"
       ],
-      "avatar": "../../assets/projects/jungle/avatar.png",
+      "avatar": "./assets/projects/jungle/avatar.png",
       "link": "https://github.com/curtis-wils0n/jungle"
     },
     {
@@ -28,11 +28,11 @@
       "subtitle": "Node, Express, PostgreSQL",
       "content": "A bold, easy-to-use social map-making application that allows users to create, edit, and share custom maps with friends",
       "images": [
-        "../../assets/projects/wikimap/splash-example.png",
-        "../../assets/projects/wikimap/readme-screenshot-1.png",
-        "../../assets/projects/wikimap/readme-screenshot-3.png"
+        "./assets/projects/wikimap/splash-example.png",
+        "./assets/projects/wikimap/readme-screenshot-1.png",
+        "./assets/projects/wikimap/readme-screenshot-3.png"
       ],
-      "avatar": "../../assets/projects/wikimap/avatar.png",
+      "avatar": "./assets/projects/wikimap/avatar.png",
       "link": "https://github.com/curtis-wils0n/WikiMap"
     },
     {
@@ -40,9 +40,9 @@
       "subtitle": "Rust",
       "content": "A simple x86-based operating system written in Rust",
       "images": [
-        "../../assets/projects/curtOS/splash.png"
+        "./assets/projects/curtOS/splash.png"
       ],
-      "avatar": "../../assets/projects/curtOS/avatar.png",
+      "avatar": "./assets/projects/curtOS/avatar.png",
       "link": "https://github.com/curtis-wils0n/curt_os"
     }
   ]
