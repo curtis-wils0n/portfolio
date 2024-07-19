@@ -3,7 +3,7 @@
     <mat-card-title-group>
       <mat-card-title style="font-family: 'Dela Gothic One', sans-serif;">{{ project.title }}</mat-card-title>
       <mat-card-subtitle>{{ project.subtitle }}</mat-card-subtitle>
-      <mat-icon [fontIcon]="project.avatar"></mat-icon>
+      <img mat-card-sm-image [src]="project.avatar">
     </mat-card-title-group>
   </mat-card-header>
   <mat-card-content class="mc-content">

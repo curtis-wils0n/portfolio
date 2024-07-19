@@ -9,7 +9,7 @@
         "../../assets/projects/jungle/jungle-products.png",
         "../../assets/projects/jungle/jungle-admin.png"
       ],
-      "avatar": "eco",
+      "avatar": "../../assets/projects/jungle/avatar.png",
       "link": "https://github.com/curtis-wils0n/jungle"
     },
     {
@@ -21,7 +21,7 @@
         "../../assets/projects/wikimap/readme-screenshot-1.png",
         "../../assets/projects/wikimap/readme-screenshot-3.png"
       ],
-      "avatar": "public",
+      "avatar": "../../assets/projects/wikimap/avatar.png",
       "link": "https://github.com/curtis-wils0n/WikiMap"
     },
     {
@@ -31,7 +31,7 @@
       "images": [
         "../../assets/projects/curtOS/splash.png"
       ],
-      "avatar": "computer",
+      "avatar": "../../assets/projects/curtOS/avatar.png",
       "link": "https://github.com/curtis-wils0n/curt_os"
     }
   ]

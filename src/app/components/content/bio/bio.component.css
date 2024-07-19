@@ -3,3 +3,9 @@
   max-width: 400px;
   border-radius: 50%;
 }
+
+span {
+  word-wrap: normal;
+  width: 400px;
+  text-align: justify;
+}
