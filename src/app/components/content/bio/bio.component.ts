@@ -5,7 +5,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
   selector: 'bio',
   standalone: true,
   imports: [
-    FlexLayoutModule
+    FlexLayoutModule,
   ],
   templateUrl: './bio.component.html',
   styleUrl: './bio.component.css'
