@@ -87,6 +87,10 @@ const siteConfig: SiteConfig = {
             href: 'https://github.com/curtis-wils0n'
         },
         {
+            text: 'LinkedIn',
+            href: 'https://www.linkedin.com/in/curtisjwilson/'
+        },
+        {
             text: 'Instagram',
             href: 'https://www.instagram.com/curtis__wilson/'
         }
