@@ -46,3 +46,5 @@ _Jungle_ is a mini e-commerce proof-of-concept application built with Rails 6.1.
 ## Outcome
 
 _Jungle_ proved to be an extraordinary learning experience as a newer developer, allowing me to contribute features and bug fixes in a way that mimicked an in-production application. Additionally, working with Stripe to implement a payment system introduced me to a whole suite of testing capabilities through their documentation.
+
+[Link to Project](https://github.com/curtis-wils0n/jungle)

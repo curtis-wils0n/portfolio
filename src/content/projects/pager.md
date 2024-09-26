@@ -9,9 +9,9 @@ seo:
 isFeatured: true
 ---
 
-![Project preview](/pager-1.png)
-
 Created alongside [Emily Villett](https://github.com/MeowPup) for Lighthouse Labs' full-time web development bootcamp final project.
+
+![Project preview](/pager-1.png)
 
 **Project Overview:**
 
@@ -57,3 +57,5 @@ _Pager_ is a simple, user-driven social media platform designed for readers to c
 _Pager_ was an interesting project to develop, as Emily and I both felt comfortable working in vanilla React and Express but challenged ourselves by implementing Material UI components. We tried to follow "neubrutalism" ([see a good rundown here](https://medium.com/@sepidy/neubrutalism-vs-glassmorphism-your-step-by-step-guide-with-how-tos-b2751425c24b)) and its design principals as closely as possible, and found that using a component library like Material UI was perfect for most of the heavy lifting.
 
 If I were to go back to this project I would work on improving the colour-scheme and make fonts more consistent to the design guide across the application. This was a great challenge to flex our design implementation muscles, but more time could be spent on the design itself.
+
+[Link to Project](https://github.com/curtis-wils0n/pager)

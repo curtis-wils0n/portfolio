@@ -55,3 +55,5 @@ _WikiMap_ is a bold, easy-to-use social map-making application that allows users
 ## Outcome
 
 _WikiMap_ was a great first project during my time at Lighthouse Labs, and Kevin was a fantastic partner to develop with. We had yet to learn a full-scale framework at this point in the course, but I am proud of what we were able to accomplish with some fairly basic tools. Integrating the Google Maps API was also an exciting challenge, and set us up for success in future projects where we were using tools from companies like Stripe.
+
+[Link to Project](https://github.com/curtis-wils0n/pager)
