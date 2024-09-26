@@ -38,12 +38,12 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'curtis-wils0n',
+    subtitle: 'A blog, a portfolio, and a home for all my links',
+    description: 'A personal blog and portfolio for Curtis Wilson. Theme is "Dante" by justgoodui.com',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '/post-9.jpg',
+        alt: 'curtis-wils0n - blog and portfolio'
     },
     headerNavLinks: [
         {
@@ -83,24 +83,26 @@ const siteConfig: SiteConfig = {
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'Github',
+            href: 'https://github.com/curtis-wils0n'
         },
         {
             text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            href: 'https://www.instagram.com/curtis__wilson/'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: 'Hey There, and Welcome to My Corner of the Web!',
+        text: "I'm **Curtis Wilson**, a web developer based out of Calgary, Alberta\
+            currently working with <a href='https://www.atrematech.com/' target='_blank'\
+            rel='nooperner noreferrer'>Atrema Technologies</a> to bring fast, elegant web\
+            applications to customers around the globe. I am passionate about improving on\
+            large-scale data-driven applications to prioritize ease-of-use and user\
+            engagement. With a past in program facilitation, I find transforming complex topics into\
+            digestable bites an immensely enjoyable experience.",
         image: {
-            src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
+            src: '/profile-bw.jpg',
+            alt: 'A picture of Curtis Wilson sitting at a desk in front of a sound board and computer'
         },
         actions: [
             {
@@ -109,11 +111,11 @@ const siteConfig: SiteConfig = {
             }
         ]
     },
-    subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
-    },
+    // subscribe: {
+    //     title: 'Subscribe to Dante Newsletter',
+    //     text: 'One update per week. All the latest posts directly in your inbox.',
+    //     formUrl: '#'
+    // },
     postsPerPage: 8,
     projectsPerPage: 8
 };
