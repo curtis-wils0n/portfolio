@@ -77,7 +77,7 @@ const siteConfig: SiteConfig = {
             href: '/terms'
         },
         {
-            text: 'Download theme',
+            text: 'Theme (Dante)',
             href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
     ],
