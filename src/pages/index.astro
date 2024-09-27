@@ -7,16 +7,31 @@ import PostPreview from '../components/PostPreview.astro';
 import ProjectPreview from '../components/ProjectPreview.astro';
 import siteConfig from '../data/site-config';
 import { sortItemsByDateDesc } from '../utils/data-utils';
+import Job from '../components/Job.astro';
 
 const posts = (await getCollection('blog')).sort(sortItemsByDateDesc);
 const featuredPosts = posts.filter(({ data }) => data.isFeatured);
 
 const projects = (await getCollection('projects')).sort(sortItemsByDateDesc);
 const featuredProjects = projects.filter(({ data }) => data.isFeatured);
+
+const jobs = (await getCollection('jobs')).sort((a, b) => {
+    return a.data.startDate < b.data.startDate ? 1 : -1;
+});
 ---
 
 <BaseLayout description={siteConfig.description} image={siteConfig.image}>
     <Hero />
+    {
+        jobs?.length > 0 && (
+            <div class="mb-16 sm:mb-24">
+                <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">CV</h2>
+                {jobs.map((job) => (
+                    <Job job={job} class="mb-10 sm:mb-12" headingLevel="h3" />
+                ))}
+            </div>
+        )
+    }
     {
         featuredProjects?.length > 0 && (
             <div class="mb-16 sm:mb-24">

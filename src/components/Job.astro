@@ -1,0 +1,29 @@
+---
+import { type CollectionEntry } from 'astro:content';
+import FormattedDate from './FormattedDate.astro';
+
+type Props = { job: CollectionEntry<'jobs'>; class?: string; headingLevel?: 'h2' | 'h3' };
+
+const { job, class: className, headingLevel = 'h2' } = Astro.props;
+const { title, description, position, startDate, endDate, location } = job.data;
+const TitleTag = headingLevel;
+---
+
+<div class:list={['flex justify-between items-start gap-8 group', className]}>
+    <div class="grow">
+        <div class="flex justify-between">
+            <TitleTag class="text-xl leading-tight font-serif font-medium sm:text-2xl">
+                {title}
+            </TitleTag>
+            <div>
+                <FormattedDate date={startDate} /> ->
+                {endDate ? <FormattedDate date={endDate} /> : 'Present'}
+            </div>
+        </div>
+        <div class="flex justify-between">
+            <em>{position}</em>
+            {location}
+        </div>
+        {description && <div class="mt-1 text-sm leading-normal">{description}</div>}
+    </div>
+</div>
